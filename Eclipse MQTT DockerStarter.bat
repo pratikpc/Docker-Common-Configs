@@ -1,0 +1,1 @@
+ docker run -it --name "Eclipse-Mosquitto" -p 1883:1883 -p 9001:9001 -v server_data:/mosquitto/data -v server_data:/mosquitto/log eclipse-mosquitto:latest
