@@ -1,1 +1,1 @@
-docker run --name "postgres" -it --rm -e POSGTGRES_DB=postgres -e POSGTGRES_USER=postgres -e POSGTGRES_PASSWORD=postgres -p 5432:5432 -v server_data:/var/lib/postgresql/data postgres:alpine
+docker run --name "postgres" -it --rm -e POSTGRES_DB=postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -v server_data:/var/lib/postgresql/data postgres:alpine
